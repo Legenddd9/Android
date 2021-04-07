@@ -6,7 +6,7 @@ fun main(){
 
     var obj = Fraction(num1,num2,"1/4");
 
-    println("Fraction = " + obj.Fract())
+    println("Fraction = " + obj.Fract(obj))
 
     println("${num1} + ${num2} = "+obj.Addition());
     println("${num1} - ${num2} = "+obj.Subtraction());
@@ -32,10 +32,12 @@ class Fraction(private var num1: Float, private var num2: Float, private var fra
         return num1 / num2;
     }
 
-    fun Fract(): Double {
-        if (fract.contains("/")) {
-            val rat: List<String> = fract.split("/")
-            return rat[0].toDouble() / rat[1].toDouble()
+    fun Fract(other: Any?): Double {
+        if(other is Fraction){
+            if (fract.contains("/")) {
+                val rat: List<String> = fract.split("/")
+                return rat[0].toDouble() / rat[1].toDouble()
+            }
         }
         return 0.0
     }
