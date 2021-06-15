@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "533109588018",
+    "project_id": "authandroid-78672",
+    "storage_bucket": "authandroid-78672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533109588018:android:6f0906425f8bede64a3c2b",
+        "android_client_info": {
+          "package_name": "com.example.ninthhomework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533109588018-6k050acc5it58cgpfa8q7mgk9scdsosg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2DpdVs7ys8KoGRxOTBbyPvmEnrlMCSKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533109588018-6k050acc5it58cgpfa8q7mgk9scdsosg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
